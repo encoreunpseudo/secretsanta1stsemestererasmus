@@ -1,16 +1,12 @@
-// Secret Santa assignments encrypted in Base64.
-// Key = name of the person giving
-// Value = Base64(name of the person receiving)
-// Each person gives to exactly one other person, and everyone receives a gift.
 
 const assignments = {
-    "Amel": "RnJhbno=",       // Base64 encoded
-    "Mayline": "RWxpYXM=",
-    "Lara": "QW1lbA==",
-    "Franz": "QW1lbGlh",
-    "Amelia": "TWF5bGluZQ==",
-    "Elvis": "TGFyYQ==",
-    "Elias": "RWx2aXM="
+    "Amel": "TGFyYQ==",       // Base64 encoded
+    "Mayline": "QW1lbGlh",       // Base64 encoded
+    "Lara": "RWxpYXM=",       // Base64 encoded
+    "Franz": "QW1lbA==",       // Base64 encoded
+    "Amelia": "RWx2aXM=",       // Base64 encoded
+    "Elvis": "TWF5bGluZQ==",       // Base64 encoded
+    "Elias": "RnJhbno="        // Base64 encoded
   };
   
   // Prevent someone from looking at multiple names
