@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secret Santa 🎅</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 0 16px;
+      text-align: center;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    select, button {
+      padding: 8px 12px;
+      font-size: 1rem;
+      margin: 8px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 16px;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    .warning {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Secret Santa 🎁</h1>
+  <div class="card">
+    <p>Choose your name from the list to discover who you need to give a gift to.</p>
+
+    <label for="name">Your name:</label><br>
+    <select id="name">
+      <option value="">-- Select your name --</option>
+      <option value="Amel">Amel</option>
+      <option value="Mayline">Mayline</option>
+      <option value="Lara">Lara</option>
+      <option value="Franz">Franz</option>
+      <option value="Amelia">Amelia</option>
+      <option value="Elvis">Elvis</option>
+      <option value="Elias">Elias</option>
+    </select>
+    <br>
+    <button id="revealBtn">Reveal my recipient</button>
+
+    <div id="result"></div>
+    <p class="warning">
+      Please only look at your own name 🙃
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
