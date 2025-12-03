@@ -1,12 +1,12 @@
 
 const assignments = {
-    "Amel": "TGFyYQ==",       // Base64 encoded
-    "Mayline": "QW1lbGlh",       // Base64 encoded
-    "Lara": "RWxpYXM=",       // Base64 encoded
+    "Amel": "TWF5bGluZQ==",       // Base64 encoded
+    "Mayline": "TGFyYQ==",       // Base64 encoded
+    "Lara": "RWx2aXM=",       // Base64 encoded
     "Franz": "QW1lbA==",       // Base64 encoded
-    "Amelia": "RWx2aXM=",       // Base64 encoded
-    "Elvis": "TWF5bGluZQ==",       // Base64 encoded
-    "Elias": "RnJhbno="        // Base64 encoded
+    "Amelia": "RWxpYXM=",       // Base64 encoded
+    "Elvis": "RnJhbno=",       // Base64 encoded
+    "Elias": "QW1lbGlh"        // Base64 encoded
   };
   
   // Prevent someone from looking at multiple names
